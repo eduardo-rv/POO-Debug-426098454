@@ -1,9 +1,9 @@
 class Persona
 {
 	// declarar los 2 atributos privados que faltan
-	#nombre
-	#
-	#	
+	#nombre;
+	#musica;
+	#deporte;
 
 	constructor(nombre, musica, deporte)
 	{
@@ -20,5 +20,5 @@ class Persona
 	}
 }
 
-const mikol = new Persona(); //mandar parametros
-console.log(mikol.presentarse())
+const maikol = new Persona("Maikol", "Rock", "Basquetball"); //mandar parametros
+maikol.presentarse();
