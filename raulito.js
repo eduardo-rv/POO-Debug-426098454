@@ -1,10 +1,10 @@
-class Persona()
+class Persona
 {
 	#nombre;
 	#musica;
 	#deporte;
 
-	constructor()//colocar parametros
+	constructor(nombre, musica, deporte)
 	{
 		this.#nombre = nombre;
 		this.#musica = musica;
@@ -19,5 +19,5 @@ class Persona()
 	}
 }
 
-const raulito = new Persona(); //mandar valores
-console.log(raulito.presentarse())
+const raulito = new Persona("Raul", "Motorama", "BaquetBall");
+console.log(raulito.presentarse());
